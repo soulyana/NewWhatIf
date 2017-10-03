@@ -18,16 +18,16 @@ public class WhatIfCompletionActivity {
         average = sum / 2;
 
         if (sum > 200 && sum < 1000) {
-            System.out.println(sum + "*~");
+            System.out.println("Sum = " + sum + "*~");
         }else if (sum > 200) {
-            System.out.println(sum + "*");
+            System.out.println("Sum = " + sum + "*");
         }else if (sum < 1000) {
-            System.out.println(sum + "~");
+            System.out.println("Sum = " + sum + "~");
         } else {
-            System.out.println(sum);
+            System.out.println("Sum = " + sum);
         }
         if(num2 > 3000) {
-            System.out.println("Wow, you chose a big numer. " + num2 + " is number 2");
+            System.out.println("Wow, you chose a big number. " + num2 + " is number 2.");
         }
     }
 }
